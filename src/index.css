@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+body {
+  font: 14px "Roboto", "Sans-sarif";
+  margin: 20px;
+  text-align: center;
+}
+
+.App {
+  text-align: left;
+  margin: auto;
+  max-width: 450px;
+  border: #999;
+  border-width: 2px;
+  border-style: solid;
+}
+
+h1 {
+  margin: 5px;
+  text-transform: capitalize;
+}
+
+h2 {
+  margin: 5px;
+}
+
+/* User list */
+.UserEntry {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.excludeButton {
+  vertical-align: middle;
+}
+
+.endOfLine {
+  float: right;
+  padding-right: 20px;
+  max-height: 20px;
+}
+
+/* Options panel */
+.numberEntry {
+  width: 10%;
+}
+
+.bigButton {
+  margin: auto;
+  margin-top: 20px;
+  width: 40%;
+  display: block;
+}
+
+/* results list */
+.resultsDisplay {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.groupHeader {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+
+  width: 50%;
+}
+
+li {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+}
+
+ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* flex styles */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.child {
+  margin: 5px;
+  flex-shrink: 1;
+}
+
+.smallChild {
+  flex-grow: 1;
+}
+
+.bigChild{
+  flex-grow: 2;
+}
+
